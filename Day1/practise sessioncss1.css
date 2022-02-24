@@ -1,0 +1,65 @@
+.display1 {
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  margin-right: 71px;
+}
+.display2 {
+  display: inline-block;
+}
+.cart-icon {
+  width: 21px;
+  height: 21px;
+  margin-left: 600px;
+}
+.color-text {
+  font-size: 36px;
+  font-family: Lato;
+}
+.name-text {
+  font-size: 36px;
+  font-family: Lato;
+  font-weight: 700;
+}
+.goback-text {
+  margin-left: 600px;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 12px;
+}
+.price {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 18px;
+}
+.loremipsum-text {
+  width: 346px;
+  height: 131px;
+
+  font-family: Lato;
+  font-size: 14px;
+  text-align: justify;
+}
+.size-text {
+  font-family: Lato;
+}
+.medium-text {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 24px;
+}
+.clotheswomen {
+  width: 400px;
+  height: 520px;
+}
+.Men-text {
+    margin-left: 600px;
+}
+button {
+    width: 147px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+}

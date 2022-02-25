@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    /* supaya tidak mempengaruhi width dan height kalo edit paddingnya */
+}
+.kiri {
+    display: inline-block;
+    width: 300px;
+    background-color: lightgray;
+}
+
+.img {
+    width: 100%;
+}
+.kanan {
+    padding: 83px;
+    /* kalo pake margin divnya geser */
+}
+.cart-icon {
+    width: 21px;
+    height: 21px;
+    background-color: black;
+    margin-left: calc(540px -83px);
+}
+/* sudo selector */
+.cart-icon:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+.go-back {
+    font-size: 12px;
+    font-weight: 900;
+    margin: 0;
+    margin-top: 32px;
+    margin-left: calc(494px - 83px);
+}
+.product-name {
+    font-size: 36px;
+    margin-left: 79px;
+}
+.product-color {
+    font-weight: 300px;
+}
+.product-type {
+    font-weight: 900;
+}
+.product-price {
+    font-size: 28px;
+    font-weight: 900px;
+    margin: 0;
+    margin-left: 83px;
+    margin-top: 31px;
+}
+.product-description {
+    font-size: 14px;
+    font-weight: 500px;
+    color: black;
+    width: 346px;
+    margin: 0;
+    margin-top: 48px;
+    margin-left: 83px;
+    text-align: justify;
+}
+.product-size {
+    font-size: 12px;
+    font-weight: 500;
+    color: lightgray;
+}
+.product-size-value {
+    font-size: 24px;
+    font-weight: 900;
+}
+.product-material {
+    text-align: right;
+    color: lightgray;
+    font-size: 12px;
+    font-weight: 500;
+    width: 88px;
+    margin-left: 478px;
+}
+.add-to-cart {
+    padding: 16px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+    

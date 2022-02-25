@@ -38,7 +38,10 @@
   margin-top: 32px;
   margin-left: calc(494px - 83px);
 }
-
+.go-back:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 .product-name {
   font-size: 36px;
   /* margin-left: 79px; */
